@@ -1,0 +1,57 @@
+/*
+------------- Table of content ----------------
+
+Template Name: Getindiatech  Responsive  HTML5 Template
+Template URI: https://getindiatech.com/
+Description: Getindiatech  Responsive  HTML5 Template
+Author: Gobinda Sarkar
+Author URI: https://getindiatech.com/
+Version: 1.0
+
+---------------------- common content ----------
+1.body reset content
+#.header-area
+#.hero-banner
+#.section-title
+#.about-area
+#.generations-area
+#.spaces-designed
+#.livingtree-area
+#.location-area
+#.primary-accordion
+#.faq-area
+#.video-area
+#.lifestyles-area
+#.contact-area
+
+
+
+
+*/
+
+
+
+
+// variable
+@import "variable/_variable.scss";
+
+// mixin
+@import "mixin/_mixin.scss";
+
+// body reset content
+@import "reset/_predefine.scss";
+
+// component content
+@import "component/header.scss";
+@import "component/hero-banner";
+@import "component/section-title";
+@import "component/about-area";
+@import "component/generations-area";
+@import "component/spaces-designed";
+@import "component/livingtree-area";
+@import "component/location-area";
+@import "component/primary-accordion";
+@import "component/faq-area";
+@import "component/video-area";
+@import "component/lifestyles-area";
+@import "component/contact-area";

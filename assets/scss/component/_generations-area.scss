@@ -1,0 +1,38 @@
+/*===============================
+ #.generations-area
+=================================*/
+.generations-area {
+    background: linear-gradient(40deg, var(--hover-color), var(--color2));
+}
+
+.single-generation {
+    .generation-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 9rem;
+        height: 9rem;
+        border: 2px solid var(--scolor);
+        border-radius: 50%;
+        font-size: 4rem;
+        color: var(--scolor);
+        margin-bottom: 2rem;
+
+        img {
+            max-width: 4rem;
+        }
+    }
+
+    h3 {
+        font-family: $titleFont;
+        font-size: 2rem;
+        font-weight: 500;
+        color: var(--white);
+    }
+}
+
+@media (max-width: 575px) {
+    .single-generation h3 {
+        font-size: 1.6rem;
+    }
+}

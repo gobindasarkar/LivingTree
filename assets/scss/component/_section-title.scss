@@ -1,0 +1,52 @@
+/*===============================
+ #.section-title
+=================================*/
+.section-title {
+    margin-bottom: 2.5rem;
+
+    .title {
+        font-family: $titleFont;
+        font-size: 6.7rem;
+        text-transform: uppercase;
+        color: var(--primary-color);
+
+        &.title-gradient {
+            background: linear-gradient(to right, var(--hover-color), var(--color2));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        &.solid-color {
+            color: var(--scolor);
+        }
+    }
+
+    p {
+        margin-bottom: 0;
+        margin-top: 2rem;
+        color: var(--white);
+    }
+}
+
+@media (max-width: 1399px) {
+    .section-title .title {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 1199px) {
+    .section-title .title {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .section-title .title {
+        font-size: 3rem;
+    }
+
+    .section-title p {
+        margin-top: 1rem;
+    }
+}

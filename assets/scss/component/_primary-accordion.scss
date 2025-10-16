@@ -1,0 +1,71 @@
+/*===============================
+ #.primary-accordion
+=================================*/
+.primary-accordion {
+    background: transparent;
+
+    .accordion-item {
+        background: transparent;
+        border: none;
+        padding-bottom: 2rem;
+    }
+
+    .accordion-header {
+        padding: 0;
+        border: none;
+
+        .accordion-button {
+            padding: 0;
+            background: transparent;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            font-size: 2rem;
+            color: var(--white);
+
+            &::after {
+                font-family: $fontAesome;
+                background: transparent;
+                content: '\2b';
+
+                transform: rotate(0deg);
+                font-weight: 900;
+            }
+
+            &:not(.collapsed)::after {
+                font-family: $fontAesome;
+                background: transparent;
+                content: '\f068';
+                transform: rotate(0deg);
+                font-weight: 900;
+            }
+        }
+    }
+
+    .accordion-body {
+        padding: 0;
+        padding-top: 2rem;
+        border: none;
+        p {
+            margin: 0;
+        }
+    }
+
+    &.faq-accordion {
+        .accordion-header {
+            padding: 0;
+            border: none;
+
+            .accordion-button {
+                font-size: 1.6rem;
+                color: var(--primary-color);
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .primary-accordion .accordion-header .accordion-button {
+        font-size: 1.6rem;
+    }
+}
