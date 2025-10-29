@@ -23,7 +23,7 @@ Version: 1.0
 #.video-area
 #.lifestyles-area
 #.contact-area
-#.welcome
+#.thanks
 
 
 
@@ -821,7 +821,7 @@ scrollUp
 }
 
 /*===============================
- #.welcome
+ #.thanks
 =================================*/
 .thanks-page {
   padding: 6rem 0;
