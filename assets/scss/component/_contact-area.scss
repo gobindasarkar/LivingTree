@@ -4,6 +4,7 @@
 .contact-area {
     background: linear-gradient(40deg, var(--hover-color), var(--color2));
 }
+
 .contact-form {
     .form-control {
         width: 100%;
@@ -12,5 +13,10 @@
         padding: 1rem 1.6rem;
         font-size: 1.6rem;
         color: var(--black);
+
+        &.message-box {
+            height: 10rem;
+            resize: none;
+        }
     }
 }
